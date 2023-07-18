@@ -53,12 +53,11 @@
 
 body {
   color: white;
+  position: relative;
 }
 
 /* Header */
-header{
-  background-color: #ADD8E6;
-}
+
 
 header .top-bar {
   background-color: #255EE9;
@@ -82,6 +81,18 @@ header .top-bar .container {
 .nav-menu a{
   text-decoration: none;
   color: white;
+}
+
+#jumbotron{
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+}
+#jumbotron .content{
+  width: 90%;
+  max-width: 900px;
 }
 
 /* Main */
