@@ -31,14 +31,31 @@
   background-color: white;
 }
 
+.logo,
+.small-btn,
+.big-btn,
+.fa-brands:hover{
+  cursor: pointer;
+}
+
+
 .login {
   background-color: white;
 }
 
+.login:hover{
+  color: #255EE9;
+}
+
 .register {
-  background-color: #7289DA;
+  background-color: #5865F2;
   color: white;
 }
+
+.register:hover {
+  background-color: #787fce;
+}
+
 
 .big-column {
   width: 60%;
@@ -139,20 +156,33 @@ footer {
   margin: 30px auto;
 }
 
-/* main section:nth-of-type(2n + 3){
-  background-color: #D3D3D3;
-} */
-
 section:last-child .container {
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
 }
 
-section:last-child .big-btn {
-  background-color: #7289DA;
+.big-btn:nth-child(2) {
+  background-color: #23272A;
   color: white;
 }
+
+.big-btn:nth-child(2):hover {
+  background-color: #3d3e3f;
+  color: white;
+}
+
+section:last-child .big-btn {
+  background-color:#5865F2;
+  color: white;
+}
+
+section:last-child .big-btn:hover {
+  background-color:#8089ee;
+  color: white;
+}
+
+
 section :nth-of-type(even){
   background-clip: ;
 }
