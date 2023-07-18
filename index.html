@@ -47,7 +47,7 @@
     </div>
 
     <div id="jumbotron" class="flex">
-      <div class="content debug">
+      <div class="content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eveniet numquam est corrupti officia, modi minus quisquam tempore veritatis debitis animi consequuntur eius, autem esse aperiam quod tempora asperiores non.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dicta deserunt ab labore veniam reiciendis error alias. Sunt ducimus sapiente eius, voluptatibus iusto voluptatem deleniti fugit dolorum dolorem a nemo!
       </div>
@@ -57,31 +57,53 @@
   <main>
 
     <section>
-      <div class="container d-flex debug-box debug">
-        <div class="big-column">IMAGE</div>
-        <div class="small-column">TEXT</div>
+      <div class="container flex">
+        <div class="big-column">
+          <img src="img/item1.svg" alt="item1">
+        </div>
+        <div class="small-column">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium pariatur voluptatem distinctio eum, eveniet facere beatae molestias accusamus culpa ullam omnis eius enim necessitatibus amet officiis voluptas quod voluptatum.</p>
+        </div>
       </div>
     </section>
     
     <section class="bg-grey" >
-      <div class="container d-flex debug-box debug">
-        <div class="small-column">TEXT</div>
-        <div class="big-column">IMAGE</div>
+      <div class="container flex">
+        <div class="small-column">
+          <p></p>
+        </div>
+        <div class="big-column">
+          <img src="img/item2.svg" alt="item2">
+        </div>
       </div>
     </section>
     
     <section>
-      <div class="container d-flex debug-box debug">
-        <div class="big-column">IMAGE</div>
-        <div class="small-column">TEXT</div>
+      <div class="container flex">
+        <div class="big-column">
+          <img src="img/item3.svg" alt="item3">
+        </div>
+        <div class="small-column">
+          <p></p>
+        </div>
       </div>
     </section>
 
     <section class="bg-grey">
-      <div class="container d-flex debug-box debug">
-        <div>titolo</div>
-        <div>testo</div>
-        <div>immgine</div>
+      <div class="container flex column">
+        
+        <div>
+          <h2>titolo</h2>
+        </div>
+        
+        <div>
+          <p>testo</p>
+        </div>
+        
+        <div>
+          <img src="img/item4-big.svg" alt="item4-big">
+        </div>
+
         <div>CTA</div>
       </div>
     </section>
@@ -89,19 +111,85 @@
   </main>
 
   <footer>
-    <div class="container debug-box debug">
-      <div class="footer-top d-flex debug-box debug">
-        <div class="social">social</div>
-        <div class="menu d-flex debug-box debug">
-          <div class="col">1</div>
-          <div class="col">2</div>
-          <div class="col">3</div>
-          <div class="col">4</div>
+    <div class="container ">
+      <div class="upper-footer flex">
+        <div class="social">
+          
+          <h2>IL tuo posto per parlare</h2>
+          <i class="flag"><img src="img/ita.png" alt="Italia"></i>
+          <span>Italiano &#x2C5;</span>
+          <div>
+            
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+
+          </div>
+        </div>
+
+        <div class="menu flex">
+          <div class="col">
+            <h3>Prodotto</h3>
+            <nav>
+              <ul>
+                <li><a href="#">Scarica</a></li>
+                <li><a href="#">Perchè Discord</a></li>
+                <li><a href="#">Nitro</a></li>
+                <li><a href="#">Sicurezza</a></li>
+                <li><a href="#">Assistenza</a></li>
+              </ul>
+            </nav>
+            
+          </div>
+          <div class="col">
+            <h3>Compagnia</h3>
+            <nav>
+              <ul>
+                <li><a href="#">Chi siamo</a></li>
+                <li><a href="#">Lavora con noi</a></li>
+                <li><a href="#">Marchio</a></li>
+                <li><a href="#">Redazione</a></li>
+                <li><a href="#">Negozio</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col">
+            <h3>Risorse</h3>
+            <nav>
+              <ul>
+                <li><a href="#">Scarica</a></li>
+                <li><a href="#">Perchè Discord</a></li>
+                <li><a href="#">Nitro</a></li>
+                <li><a href="#">Sicurezza</a></li>
+                <li><a href="#">Assistenza</a></li>
+                <li><a href="#">Scarica</a></li>
+                <li><a href="#">Perchè Discord</a></li>
+                <li><a href="#">Nitro</a></li>
+                <li><a href="#">Sicurezza</a></li>
+                <li><a href="#">Assistenza</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col">
+            <h3>Prodotto</h3>
+            <nav>
+              <ul>
+                <li><a href="#">Scarica</a></li>
+                <li><a href="#">Perchè Discord</a></li>
+                <li><a href="#">Nitro</a></li>
+                <li><a href="#">Sicurezza</a></li>
+                <li><a href="#">Assistenza</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
-      <div class="footer-bottom d-flex debug-box debug">
-        <div class="logo">LOGO</div>
-        <div class="register">REGISTRATI</div>
+      <div class="lower-footer flex">
+        <div class="logo">
+          <img src="img/logo.svg" alt="LOGO">
+        </div>
+        <button class="btn register">REGISTRATI</button>
       </div>
     </div>
   </footer>
