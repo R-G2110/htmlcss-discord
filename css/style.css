@@ -58,11 +58,12 @@
 
 
 .big-column {
-  width: 60%;
+  width: 65%;
 }
 
 .small-column {
-  width: 40%;
+  width: 35%;
+  margin: 25px auto;
 }
 
 .bg-gray {
@@ -72,9 +73,9 @@
 }
 .container {
   margin: 0 auto;
-  width: 80%;
+  width: 75%;
   max-width: 1200px;
-  min-width: 700px;
+  min-width: 900px;
 }
 
 body {
@@ -83,13 +84,17 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: white;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 h3,
@@ -158,8 +163,8 @@ footer {
   height: 100%;
 }
 
-.small-column {
-  margin: 30px auto;
+.small-column p{
+  font-size: 1.1rem;
 }
 
 section:last-child .container {
@@ -207,6 +212,7 @@ footer {
 
 .upper-footer .menu {
   width: 75%;
+  font-size: .8rem;
 }
 
 .upper-footer .menu .col {
@@ -225,6 +231,9 @@ footer {
 .upper-footer .menu a {
   text-decoration: none;
   color: white; 
+}
+.upper-footer span{
+  font-size: 1rem;
 }
 
 .lower-footer {
