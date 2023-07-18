@@ -16,10 +16,16 @@
 
 
 /* Button */
-.btn {
+.small-btn {
   border: none;
   border-radius: 20px;
   padding: 10px 15px;
+}
+
+.big-btn {
+  border: none;
+  border-radius: 30px;
+  padding: 20px 30px;
 }
 
 .login {
@@ -52,6 +58,10 @@
 body {
   color: white;
   position: relative;
+}
+
+h1 {
+  font-size: 4rem;
 }
 
 h2,
@@ -87,15 +97,22 @@ header .top-bar .container {
 }
 
 #jumbotron{
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 500px;
   background-image: url(../img/jumbo.png);
   background-size: cover;
 }
+
+#jumbotron h1{
+  padding: 30px;
+}
+
 #jumbotron .content{
   width: 90%;
-  max-width: 900px;
+  max-width: 500px;
+  font-size: 1.3rem;
 }
 
 /* Main */
