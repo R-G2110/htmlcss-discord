@@ -103,6 +103,8 @@ h4 {
 header .top-bar {
   background-color: #255EE9;
   height: 80px;
+  width: 100%;
+  position: fixed;
 }
 
 header .top-bar .container {
