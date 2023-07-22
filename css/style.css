@@ -138,6 +138,7 @@ header .top-bar .container {
   height: 500px;
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-position: center;
 }
 
 #jumbotron h1{
@@ -192,6 +193,22 @@ section:last-child .big-btn:hover {
   background-color:#8089ee;
   color: white;
 }
+
+main .wave {
+  height: 50px;
+}
+
+main .upside-down img{
+  transform: rotateX(180deg);
+}
+
+main .wave img{
+  height: 100%;
+  width: 100%;
+  opacity: .04;
+}
+
+
 
 /* Footer */
 
